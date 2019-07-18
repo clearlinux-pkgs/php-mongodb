@@ -1,0 +1,21 @@
+Configure miss: icc
+Configure miss: suncc
+Configure miss: if compiler supports -R
+Configure miss: if debug is enabled
+Configure miss: if zts is enabled
+Configure miss: whether to enable developer build flags
+Configure miss: whether to enable code coverage
+Configure miss: whether to use system libbson
+Configure miss: whether to use system libmongoc
+Configure miss: reallocf
+Configure miss: whether PTHREAD_ONCE_INIT needs braces
+Configure miss: PHP_MONGODB_SNAPPY
+Configure miss: snappy_uncompress in -lsnappy
+Configure miss: snappy-c.h usability
+Configure miss: snappy-c.h presence
+Configure miss: snappy-c.h
+Configure miss: res_ndestroy
+Configure miss: whether to use system crypto profile
+Configure miss: deprecated option for whether to use system crypto profile
+Configure miss: PHP_MONGODB_ICU
+Configure miss: shm_open
