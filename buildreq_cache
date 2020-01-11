@@ -1,4 +1,5 @@
-1.6.0
+1.6.1
 cyrus-sasl-dev
 openssl-dev
 pkgconfig(zlib)
+zlib-dev
