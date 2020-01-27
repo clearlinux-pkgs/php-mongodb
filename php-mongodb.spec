@@ -4,16 +4,18 @@
 #
 Name     : php-mongodb
 Version  : 1.6.1
-Release  : 4
+Release  : 5
 URL      : https://pecl.php.net/get/mongodb-1.6.1.tgz
 Source0  : https://pecl.php.net/get/mongodb-1.6.1.tgz
-Summary  : MongoDB driver for PHP
+Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
 Requires: php-mongodb-lib = %{version}-%{release}
 BuildRequires : buildreq-php
 BuildRequires : cyrus-sasl-dev
 BuildRequires : openssl-dev
+BuildRequires : pcre2-dev
+BuildRequires : pkgconfig(zlib)
 BuildRequires : zlib-dev
 
 %description
@@ -51,4 +53,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20180731/mongodb.so
+/usr/lib64/extensions/no-debug-non-zts-20190902/mongodb.so

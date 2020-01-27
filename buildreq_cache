@@ -1,5 +1,6 @@
 1.6.1
 cyrus-sasl-dev
 openssl-dev
+pcre2-dev
 pkgconfig(zlib)
 zlib-dev
