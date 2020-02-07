@@ -5,6 +5,7 @@ Configure miss: if debug is enabled
 Configure miss: if zts is enabled
 Configure miss: whether to enable developer build flags
 Configure miss: whether to enable code coverage
+Configure miss: whether to compile against system libraries instead of bundled
 Configure miss: whether to use system libbson
 Configure miss: whether to use system libmongoc
 Configure miss: reallocf
