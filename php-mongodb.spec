@@ -4,10 +4,10 @@
 #
 Name     : php-mongodb
 Version  : 1.7.3
-Release  : 8
+Release  : 9
 URL      : https://pecl.php.net/get/mongodb-1.7.3.tgz
 Source0  : https://pecl.php.net/get/mongodb-1.7.3.tgz
-Summary  : MongoDB driver for PHP
+Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
 Requires: php-mongodb-lib = %{version}-%{release}
