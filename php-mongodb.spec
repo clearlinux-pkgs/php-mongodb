@@ -4,7 +4,7 @@
 #
 Name     : php-mongodb
 Version  : 1.7.4
-Release  : 11
+Release  : 12
 URL      : https://pecl.php.net/get/mongodb-1.7.4.tgz
 Source0  : https://pecl.php.net/get/mongodb-1.7.4.tgz
 Summary  : MongoDB driver for PHP
