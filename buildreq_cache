@@ -1,5 +1,5 @@
-1.7.4
+1.7.5
 cyrus-sasl-dev
 openssl-dev
 pcre2-dev
-zlib-dev
+pkgconfig(zlib)
