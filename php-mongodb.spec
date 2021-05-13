@@ -4,7 +4,7 @@
 #
 Name     : php-mongodb
 Version  : 1.9.1
-Release  : 19
+Release  : 20
 URL      : https://pecl.php.net/get/mongodb-1.9.1.tgz
 Source0  : https://pecl.php.net/get/mongodb-1.9.1.tgz
 Summary  : No detailed summary available
