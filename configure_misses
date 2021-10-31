@@ -8,7 +8,6 @@ Configure miss: if debug is enabled
 Configure miss: if zts is enabled
 Configure miss: reallocf
 Configure miss: res_ndestroy
-Configure miss: shm_open
 Configure miss: snappy-c.h
 Configure miss: snappy_uncompress in -lsnappy
 Configure miss: suncc
