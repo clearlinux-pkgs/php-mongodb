@@ -4,7 +4,7 @@
 #
 Name     : php-mongodb
 Version  : 1.11.1
-Release  : 27
+Release  : 28
 URL      : https://pecl.php.net/get/mongodb-1.11.1.tgz
 Source0  : https://pecl.php.net/get/mongodb-1.11.1.tgz
 Summary  : No detailed summary available
@@ -54,4 +54,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20200930/mongodb.so
+/usr/lib64/extensions/no-debug-non-zts-20210902/mongodb.so
