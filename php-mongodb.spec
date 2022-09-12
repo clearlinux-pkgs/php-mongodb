@@ -4,7 +4,7 @@
 #
 Name     : php-mongodb
 Version  : 1.14.1
-Release  : 43
+Release  : 44
 URL      : https://pecl.php.net/get/mongodb-1.14.1.tgz
 Source0  : https://pecl.php.net/get/mongodb-1.14.1.tgz
 Summary  : No detailed summary available
