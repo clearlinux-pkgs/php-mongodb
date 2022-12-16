@@ -4,7 +4,7 @@
 #
 Name     : php-mongodb
 Version  : 1.15.0
-Release  : 51
+Release  : 52
 URL      : https://pecl.php.net/get/mongodb-1.15.0.tgz
 Source0  : https://pecl.php.net/get/mongodb-1.15.0.tgz
 Summary  : No detailed summary available
@@ -57,7 +57,7 @@ make  %{?_smp_mflags}
 
 %install
 mkdir -p %{buildroot}/usr/share/package-licenses/php-mongodb
-cp %{_builddir}/mongodb-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/php-mongodb/5a7d7df655ba40478fae80a6abafc6afc36f9b6a || :
+cp %{_builddir}/mongodb-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/php-mongodb/5a7d7df655ba40478fae80a6abafc6afc36f9b6a
 %make_install
 
 
@@ -66,7 +66,7 @@ cp %{_builddir}/mongodb-%{version}/LICENSE %{buildroot}/usr/share/package-licens
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20210902/mongodb.so
+/usr/lib64/extensions/no-debug-non-zts-20220829/mongodb.so
 
 %files license
 %defattr(0644,root,root,0755)
