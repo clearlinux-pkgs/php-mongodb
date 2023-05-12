@@ -4,10 +4,10 @@
 # Using build pattern: phpize
 #
 Name     : php-mongodb
-Version  : 1.15.2
-Release  : 61
-URL      : https://pecl.php.net/get/mongodb-1.15.2.tgz
-Source0  : https://pecl.php.net/get/mongodb-1.15.2.tgz
+Version  : 1.15.3
+Release  : 62
+URL      : https://pecl.php.net/get/mongodb-1.15.3.tgz
+Source0  : https://pecl.php.net/get/mongodb-1.15.3.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -46,8 +46,11 @@ license components for the php-mongodb package.
 
 
 %prep
-%setup -q -n mongodb-1.15.2
-cd %{_builddir}/mongodb-1.15.2
+%setup -q -n mongodb-1.15.3
+cd %{_builddir}/mongodb-1.15.3
+pushd ..
+cp -a mongodb-1.15.3 buildavx2
+popd
 
 %build
 export http_proxy=http://127.0.0.1:9/
@@ -62,6 +65,7 @@ mkdir -p %{buildroot}/usr/share/package-licenses/php-mongodb
 cp %{_builddir}/mongodb-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/php-mongodb/5a7d7df655ba40478fae80a6abafc6afc36f9b6a || :
 %make_install
 
+/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
 %files
 %defattr(-,root,root,-)
