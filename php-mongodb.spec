@@ -5,7 +5,7 @@
 #
 Name     : php-mongodb
 Version  : 1.15.3
-Release  : 63
+Release  : 64
 URL      : https://pecl.php.net/get/mongodb-1.15.3.tgz
 Source0  : https://pecl.php.net/get/mongodb-1.15.3.tgz
 Summary  : No detailed summary available
