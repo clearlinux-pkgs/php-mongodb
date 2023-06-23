@@ -4,10 +4,10 @@
 # Using build pattern: phpize
 #
 Name     : php-mongodb
-Version  : 1.16.0
-Release  : 66
-URL      : https://pecl.php.net/get/mongodb-1.16.0.tgz
-Source0  : https://pecl.php.net/get/mongodb-1.16.0.tgz
+Version  : 1.16.1
+Release  : 67
+URL      : https://pecl.php.net/get/mongodb-1.16.1.tgz
+Source0  : https://pecl.php.net/get/mongodb-1.16.1.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -46,10 +46,10 @@ license components for the php-mongodb package.
 
 
 %prep
-%setup -q -n mongodb-1.16.0
-cd %{_builddir}/mongodb-1.16.0
+%setup -q -n mongodb-1.16.1
+cd %{_builddir}/mongodb-1.16.1
 pushd ..
-cp -a mongodb-1.16.0 buildavx2
+cp -a mongodb-1.16.1 buildavx2
 popd
 
 %build
