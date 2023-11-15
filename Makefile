@@ -1,5 +1,5 @@
 PKG_NAME := php-mongodb
-URL = https://pecl.php.net/get/mongodb-1.16.2.tgz
+URL = https://pecl.php.net/get/mongodb-1.17.0.tgz
 ARCHIVES = 
 
 include ../common/Makefile.common

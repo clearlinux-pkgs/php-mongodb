@@ -1,5 +1,3 @@
-Configure miss: PHP_MONGODB_ICU
-Configure miss: PHP_MONGODB_SNAPPY
 Configure miss: deprecated option for whether to use system crypto profile
 Configure miss: g++ option to enable C++11 features
 Configure miss: gcc options needed to detect all undeclared functions
@@ -8,6 +6,7 @@ Configure miss: if debug is enabled
 Configure miss: if zts is enabled
 Configure miss: reallocf
 Configure miss: res_ndestroy
+Configure miss: snappy
 Configure miss: snappy-c.h
 Configure miss: snappy_uncompress in -lsnappy
 Configure miss: suncc
