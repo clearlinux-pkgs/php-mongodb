@@ -1,6 +1,7 @@
 1.17.0
 cyrus-sasl-dev
 openssl-dev
+perl(Getopt::Long)
 pkgconfig(zlib)
 zlib-dev
 zstd-dev
