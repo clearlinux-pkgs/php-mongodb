@@ -7,7 +7,7 @@
 #
 Name     : php-mongodb
 Version  : 1.17.3
-Release  : 91
+Release  : 92
 URL      : https://pecl.php.net/get/mongodb-1.17.3.tgz
 Source0  : https://pecl.php.net/get/mongodb-1.17.3.tgz
 Summary  : No detailed summary available
