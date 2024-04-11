@@ -7,7 +7,7 @@
 #
 Name     : php-mongodb
 Version  : 1.18.0
-Release  : 94
+Release  : 95
 URL      : https://pecl.php.net/get/mongodb-1.18.0.tgz
 Source0  : https://pecl.php.net/get/mongodb-1.18.0.tgz
 Summary  : No detailed summary available
