@@ -2,8 +2,8 @@ Configure miss: deprecated option for whether to use system crypto profile
 Configure miss: g++ option to enable C++11 features
 Configure miss: gcc options needed to detect all undeclared functions
 Configure miss: icc
-Configure miss: if debug is enabled
-Configure miss: if zts is enabled
+Configure miss: if PHP is built with thread safety (ZTS)
+Configure miss: if debugging is enabled
 Configure miss: reallocf
 Configure miss: res_ndestroy
 Configure miss: snappy
