@@ -4,13 +4,11 @@ Configure miss: gcc options needed to detect all undeclared functions
 Configure miss: icc
 Configure miss: if PHP is built with thread safety (ZTS)
 Configure miss: if debugging is enabled
-Configure miss: reallocf
 Configure miss: res_ndestroy
 Configure miss: snappy
 Configure miss: snappy-c.h
 Configure miss: snappy_uncompress in -lsnappy
 Configure miss: suncc
-Configure miss: whether PTHREAD_ONCE_INIT needs braces
 Configure miss: whether to compile against system libraries instead of bundled
 Configure miss: whether to enable code coverage
 Configure miss: whether to enable developer build flags
