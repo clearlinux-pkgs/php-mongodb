@@ -1,4 +1,3 @@
-Configure miss: deprecated option for whether to use system crypto profile
 Configure miss: g++ option to enable C++11 features
 Configure miss: gcc options needed to detect all undeclared functions
 Configure miss: icc
@@ -13,6 +12,4 @@ Configure miss: whether to compile against system libraries instead of bundled
 Configure miss: whether to enable code coverage
 Configure miss: whether to enable developer build flags
 Configure miss: whether to use system crypto profile
-Configure miss: whether to use system libbson
-Configure miss: whether to use system libmongoc
 Configure miss: x86_64-generic-linux-gnu-file
