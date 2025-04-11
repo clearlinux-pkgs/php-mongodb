@@ -7,7 +7,7 @@
 #
 Name     : php-mongodb
 Version  : 2.0.0
-Release  : 119
+Release  : 120
 URL      : https://pecl.php.net/get/mongodb-2.0.0.tgz
 Source0  : https://pecl.php.net/get/mongodb-2.0.0.tgz
 Summary  : No detailed summary available
